@@ -8,7 +8,7 @@ const props = defineProps(['data']);
 
 <template>
   <div @click="router.push({ name: 'playerInfo', params: { playerName: data.name } })">
-    <img :src="`https://vzge.me/head/64/${data.skinId}?no=shadow`" alt="" />
+    <img :src="`https://vzge.me/head/64/${data.skinId}.webp?no=shadow`" alt="" />
     <p>Name: {{ data.name }}</p>
     <p>UUID: {{ data.uuid }}</p>
   </div>
