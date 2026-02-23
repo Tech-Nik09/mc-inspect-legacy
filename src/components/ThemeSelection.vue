@@ -14,12 +14,9 @@ watch(
 </script>
 
 <template>
-  <select v-model="theme">
-    <option value="auto">automatic</option>
-    <option value="light">light</option>
-    <option value="dark">dark</option>
-    <option value="oled">oled</option>
-  </select>
+  <input type="radio" value="auto" v-model="theme" />
+  <input type="radio" value="light" v-model="theme" />
+  <input type="radio" value="dark" v-model="theme" />
 
   <p>Theme: {{ theme }}</p>
 </template>

@@ -15,11 +15,6 @@
   --color-font: var(--c-white);
 }
 
-:root[data-theme='oled'] {
-  --color-background: var(--c-black);
-  --color-font: var(--c-white);
-}
-
 :root[data-theme='auto'] {
   @media (prefers-color-scheme: dark) {
     --color-background: var(--c-black-soft);
