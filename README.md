@@ -1,6 +1,6 @@
 # mc-inspect
 
-A work in progress Minecraft player and server inspection web application.
+A Minecraft player and server inspection web application.
 
 ## Archive/legacy note:
 
